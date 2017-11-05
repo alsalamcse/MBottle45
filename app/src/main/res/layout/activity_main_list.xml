@@ -6,4 +6,27 @@
     android:layout_height="match_parent"
     tools:context="adansholy.mbottle.MainListActivity">
 
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="56dp"
+        android:layout_height="60dp"
+        app:srcCompat="@android:drawable/presence_online"
+        tools:layout_editor_absoluteY="449dp"
+        tools:layout_editor_absoluteX="163dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="61dp"
+        android:layout_height="64dp"
+        app:srcCompat="@android:drawable/star_big_on"
+        tools:layout_editor_absoluteX="310dp"
+        tools:layout_editor_absoluteY="443dp" />
 </android.support.constraint.ConstraintLayout>

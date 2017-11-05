@@ -77,7 +77,7 @@ public class MSignIn extends AppCompatActivity implements View.OnClickListener {
 
 
             if (view == btnSignin) {
-                Intent intent = new Intent(this, MSignIn.class);
+                Intent intent = new Intent(this, MainListActivity.class);
                 startActivity(intent);
             }
 
