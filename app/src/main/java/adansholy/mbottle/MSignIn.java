@@ -48,7 +48,6 @@ public class MSignIn extends AppCompatActivity implements View.OnClickListener {
             isOk = false;
         }
         signIn(email, passw);
-
     }
 
     private void signIn(String email, String passw) {
