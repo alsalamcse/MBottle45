@@ -17,7 +17,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".MSingUp" />
-        <activity android:name=".MainListActivity"></activity>
+        <activity android:name=".MainListActivity" />
+        <activity
+            android:name=".MainList"
+            android:label="@string/title_activity_main_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Oceans"
+            android:label="@string/title_activity_oceans"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -56,7 +56,7 @@ public class MSignIn extends AppCompatActivity implements View.OnClickListener {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()) {
                     Toast.makeText(MSignIn.this, "signIn Successful", Toast.LENGTH_SHORT).show();
-                    Intent i = new Intent(getBaseContext(), MainListActivity.class);
+                    Intent i = new Intent(getBaseContext(), MainList.class);
                     startActivity(i);
                     finish();
                 } else {
@@ -76,7 +76,7 @@ public class MSignIn extends AppCompatActivity implements View.OnClickListener {
 
 
             if (view == btnSignin) {
-                Intent intent = new Intent(this, MainListActivity.class);
+                Intent intent = new Intent(this, MainList.class);
                 startActivity(intent);
             }
 
